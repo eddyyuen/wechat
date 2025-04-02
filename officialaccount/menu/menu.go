@@ -102,6 +102,7 @@ type ButtonNew struct {
 
 // MatchRule 个性化菜单规则
 type MatchRule struct {
+	TagID              string `json:"tag_id,omitempty"`
 	GroupID            string `json:"group_id,omitempty"`
 	Sex                string `json:"sex,omitempty"`
 	Country            string `json:"country,omitempty"`
